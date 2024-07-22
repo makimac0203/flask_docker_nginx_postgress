@@ -3,7 +3,7 @@ services:
     image: nginx:alpine
     container_name: nginx_container
     ports:
-      - "80:80"
+      - "80:80"  # http://localhost:80 に接続
     volumes:
       - ./nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./app/static:/app/static

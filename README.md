@@ -16,3 +16,7 @@ Docker を使用して、Flask, Nginx, Postgres で構成されたシステム�
 ・停止削除</br>
 <code>make docker-stop</code>
 
+
+## 入力フォーム
+![UI](images/スクリーンショット.png)
+
