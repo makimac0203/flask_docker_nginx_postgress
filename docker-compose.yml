@@ -30,6 +30,6 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
     volumes:
-      - ./postgres-data:/var/lib/postgresql/data
+      - ./postgres-data:/var/lib/postgresql/data  # データはローカルにマウント
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql  # SQL スクリプトのマウント  テーブルを作成  
   
