@@ -3,3 +3,4 @@ postgres-data
 app/.DS_Store
 nginx/.DS_Store
 app/static/.DS_Store
+.DS_Store
