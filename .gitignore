@@ -1,3 +1,5 @@
 app/__pycache__
 postgres-data
-.DS_Store
+app/.DS_Store
+nginx/.DS_Store
+app/static/.DS_Store
